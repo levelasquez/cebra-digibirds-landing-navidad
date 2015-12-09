@@ -1,0 +1,219 @@
+
+
+@media (max-width: 992px) {
+
+    .single-object.main-img {
+        width: 100% !important;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+        margin-top: 23px;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+    }
+    .navbar-toggle {
+        /*margin-top: 23px;*/
+    }
+    .feature-list .single {
+        /*margin-bottom: 25px;*/
+    }
+}
+
+
+/*Home 01*/
+
+@media (max-width: 991px) {
+
+    .single-object.main-img {
+        width: 100% !important;
+    }
+
+    .single-feature.v1 {
+        margin-bottom: 30px;
+    }
+    .ove.phone {
+        margin-bottom: -50px;
+    }
+    .single-ptable {
+        max-width: 400px;
+        margin: 0 auto 30px;
+    }
+    section.feature .title {
+        margin: 30px 0;
+    }
+    .single-member {
+        margin-bottom: 100px;
+    }
+    .author-details {
+        margin-top: 20px;
+    }
+    .event-info {
+        margin-bottom: 50px;
+    }
+    form.reg-form .form-control {
+        margin-bottom: 10px;
+    }
+    .recent-post .entry-thumbnail {
+        margin-bottom: 20px;
+    }
+    .recent-post .entry-thumbnail img {
+        width: 100%;
+    }
+    .single-event {
+        width: 95%;
+        /*margin-left: 30px;*/
+    }
+    .schedule-timeline:before {
+        right: inherit;
+        left: 13px;
+    }
+    .schedule-timeline .nav {
+        margin-left: 0;
+    }
+    .single-event:nth-child(odd) {
+        float: right;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+    .single-event:nth-child(odd):before {
+        border-left: 10px solid rgba(124, 124, 124, 0);
+        border-right: 10px solid rgba(255, 255, 255, 1);
+        border-top: 10px solid rgba(0, 128, 0, 0);
+        border-bottom: 10px solid rgba(255, 255, 0, 0);
+        left: -20px;
+        right: inherit;
+    }
+    .single-event:nth-child(odd):after {
+        left: -25px;
+        right: inherit;
+    }
+    .schedule-timeline:after {
+        left: 10px;
+        right: inherit;
+    }
+    .sidebar-container {
+        margin-top: 100px;
+    }
+
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+    .single-member .member-img {
+        width: 170px;
+        height: 170px;
+    }
+    .single-event {
+        width: 47.6%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .single-object.main-img {
+        width: 100% !important;
+    }
+
+    .banner-title {
+        font-size: 2rem;
+        line-height: 30px;
+    }
+    .single-member {
+        max-width: 320px;
+        margin: 0 auto 100px;
+    }
+    .subscribe .form-control {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .single-portfolio img {
+        width: 100%;
+    }
+    .schedule-timeline:before,
+    .schedule-timeline:after,
+    .single-event:nth-child(odd):before,
+    .single-event:nth-child(even):before,
+    .single-event:nth-child(odd):after,
+    .single-event:nth-child(even):after,
+    .single-sponsor:before {
+        content: initial;
+    }
+    .single-event {
+        width: 100%;
+    }
+    .subscirbe-form.v2 .form-control {
+         border-top-right-radius: 5px;
+         border-bottom-right-radius: 5px;
+    }
+    .subscirbe-form.v2 .subscibe-btn {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .home-v5 .banner-title {
+        font-size: 3rem;
+        line-height: 50px;
+    }
+    .header-area.v4 .banner-title {
+        font-size: 2.5rem;
+        line-height: 45px;
+    }
+    .banner-blog .banner-title {
+        font-size: 3rem;
+        line-height: 50px;
+    }
+
+}
+
+@media (max-width : 480px) {
+
+    .single-object.main-img {
+        width: 100% !important;
+    }
+
+    .author-social li {
+        width: 100%;
+    }
+    .home-v5 .banner-title {
+        font-size: 2.5rem;
+        line-height: 50px;
+    }
+    .comment-author.vcard {
+        width: 35px;
+    }
+
+}
+
+@media (max-width : 320px) {
+
+}
